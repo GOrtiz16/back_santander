@@ -44,6 +44,6 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build . -t ${{ vars.REGISTRY_SERVER }}/java:latest
-          docker push ${{ vars.REGISTRY_SERVER }}/java:latest
+          docker build . -t ${{ vars.REGISTRY_SERVER }}/java:0.0.1
+          docker push ${{ vars.REGISTRY_SERVER }}/java:0.0.1
 
