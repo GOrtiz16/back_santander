@@ -4,7 +4,7 @@ RUN apk update --no-cache && \
 
     apk upgrade --no-cache && \
 
-    apk add 17.0.11_p9-r0 --no-cache && \
+    apk add openjdk17=17.0.11_p9-r0 --no-cache && \
 
     rm -rf /var/cache/apk/*
  
