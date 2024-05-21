@@ -21,12 +21,12 @@
 <plugin>
 <groupId>org.apache.maven.plugins</groupId>
 <artifactId>maven-jar-plugin</artifactId>
-<version>3.2.0</version>
+<version>3.9.6</version>
 <configuration>
 <archive>
 <manifest>
 <addClasspath>true</addClasspath>
-<mainClass>com.example.MyJavaFile</mainClass>  <!-- Reemplaza con tu clase principal -->
+<mainClass>com.example.MyJavaFile.java</mainClass>  <!-- Reemplaza con tu clase principal -->
 </manifest>
 </archive>
 </configuration>
