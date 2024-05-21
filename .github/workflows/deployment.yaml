@@ -1,4 +1,4 @@
-name: node
+name: java
 on:
   workflow_dispatch:
 jobs:
